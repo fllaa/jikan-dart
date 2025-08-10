@@ -327,6 +327,14 @@ class Jikan {
     return BuiltList(results.map((i) => Character.fromJson(i)));
   }
 
+  Future<BuiltList<Anime>> getSeasonNow({int page = 1}) async {
+    var url = '/seasons/now?page=$page';
+    var response = await _getResponse(url);
+
+    final anime = response['data'] ?? [];
+    return BuiltList(anime.map((i) => Anime.fromJson(i)));
+  }
+
   Future<BuiltList<Anime>> getSeason(
       {int? year, SeasonType? season, int page = 1}) async {
     var url = '/seasons';

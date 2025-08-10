@@ -66,6 +66,7 @@ Future<BuiltList<Character>> searchCharacters({String? query, String? orderBy, S
 ### Seasons
 
 ```dart
+Future<BuiltList<Anime>> getSeasonNow({int page = 1});
 Future<BuiltList<Anime>> getSeason({int? year, SeasonType? season, int page = 1});
 Future<BuiltList<Anime>> getSeasonUpcoming({int page = 1});
 Future<BuiltList<Archive>> getSeasonsList();
