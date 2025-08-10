@@ -142,7 +142,7 @@ void main() {
 
     test('Producers list', () async {
       var producers = await jikan.getProducers();
-      expect(producers.first.name, 'Pierrot');
+      expect(producers.first.name, 'Studio Pierrot');
     });
 
     test('Magazines list', () async {
@@ -153,7 +153,7 @@ void main() {
 
   group('Season Test', () {
     test('Season now list', () async {
-      var season = await jikan.getSeason();
+      var season = await jikan.getSeasonNow();
       expect(
           season.first.season, anyOf(['winter', 'spring', 'summer', 'fall']));
       expect(season.first.year, greaterThanOrEqualTo(2022));
@@ -171,7 +171,7 @@ void main() {
 
     test('Top anime list', () async {
       var top = await jikan.getTopAnime(filter: TopFilter.favorite);
-      expect(top.first.title, 'Fullmetal Alchemist: Brotherhood');
+      expect(top.first.title, 'One Piece');
       expect(top.first.type, 'TV');
     });
 
