@@ -1,4 +1,4 @@
-library jikan_api;
+library jikan_api_v4;
 
 export 'package:built_collection/built_collection.dart' show BuiltList;
 export 'src/jikan.dart';

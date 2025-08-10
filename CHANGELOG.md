@@ -1,3 +1,7 @@
+## 2.2.2
+
+* Add `getSeasonNow` method.
+
 ## 2.2.1
 
 * Fix user profile constructor.

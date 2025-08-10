@@ -1,5 +1,5 @@
 import 'package:built_collection/built_collection.dart';
-import 'package:jikan_api/src/model/genre/genre.dart';
+import 'package:jikan_api_v4/src/model/genre/genre.dart';
 
 class GenreList {
   static final anime = [

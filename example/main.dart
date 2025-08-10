@@ -1,4 +1,4 @@
-import 'package:jikan_api/jikan_api.dart';
+import 'package:jikan_api_v4/jikan_api_v4.dart';
 
 void main() async {
   final jikan = Jikan();

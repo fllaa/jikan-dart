@@ -2,8 +2,8 @@ library watch_promo;
 
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:jikan_api/src/model/common/entry_meta.dart';
-import 'package:jikan_api/src/model/serializers.dart';
+import 'package:jikan_api_v4/src/model/common/entry_meta.dart';
+import 'package:jikan_api_v4/src/model/serializers.dart';
 
 part 'watch_promo.g.dart';
 

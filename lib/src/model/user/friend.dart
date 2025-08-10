@@ -2,8 +2,8 @@ library friend;
 
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:jikan_api/src/model/serializers.dart';
-import 'package:jikan_api/src/model/user/user_meta.dart';
+import 'package:jikan_api_v4/src/model/serializers.dart';
+import 'package:jikan_api_v4/src/model/user/user_meta.dart';
 
 part 'friend.g.dart';
 
